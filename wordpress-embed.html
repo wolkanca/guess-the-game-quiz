@@ -1,0 +1,32 @@
+<!-- WordPress → Özel HTML bloğuna yapıştır. -->
+<!-- GitHub Pages açılmadan aşağıdaki URL çalışmayabilir. -->
+<div style="width:100%;max-width:1120px;margin:0 auto">
+  <iframe
+    id="wolkanca-guess-game"
+    src="https://wolkanca.github.io/guess-the-game-quiz/"
+    title="Hangi Oyun Bu? – Wolkanca Oyunları #06"
+    width="100%"
+    height="1180"
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allow="clipboard-write"
+    style="display:block;width:100%;min-height:850px;border:0;border-radius:20px;background:#080c1c"
+  ></iframe>
+</div>
+<script>
+// WordPress izin verirse, iframe yüksekliği içeriğe göre otomatik ayarlanır.
+// WordPress script etiketini kaldırırsa iframe sabit yükseklikte çalışmaya devam eder.
+(() => {
+  const frame = document.getElementById('wolkanca-guess-game');
+  if (!frame) return;
+  window.addEventListener('message', (event) => {
+    if (event.source !== frame.contentWindow) return;
+    if (event.origin !== new URL(frame.src).origin) return;
+    if (event.data?.type !== 'wolkanca-guess-the-game:height') return;
+    const height = Number(event.data.height);
+    if (Number.isFinite(height) && height >= 450 && height <= 4000) {
+      frame.style.height = Math.ceil(height + 8) + 'px';
+    }
+  });
+})();
+</script>
