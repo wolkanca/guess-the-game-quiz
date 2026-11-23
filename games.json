@@ -1,0 +1,668 @@
+[
+  {
+    "id": "minecraft",
+    "name": "Minecraft",
+    "difficulty": "kolay",
+    "icons": [
+      "🧱",
+      "⛏️",
+      "🐑"
+    ],
+    "genre": "Sandbox",
+    "hint": "Küp biçimindeki bloklarla dünyayı değiştirebilir, barınaklar kurabilirsin.",
+    "fact": "Bloklarla inşa etme, kazma ve hayatta kalma temelleriyle tanınır.",
+    "distractors": [
+      "Terraria",
+      "Roblox",
+      "Stardew Valley"
+    ]
+  },
+  {
+    "id": "tetris",
+    "name": "Tetris",
+    "difficulty": "kolay",
+    "icons": [
+      "🟦",
+      "⬇️",
+      "🧩"
+    ],
+    "genre": "Bulmaca",
+    "hint": "Düşen farklı şekilli parçalarla yatay satırları tamamlamaya çalışırsın.",
+    "fact": "1984’te ortaya çıkan klasik blok yerleştirme bulmacasıdır.",
+    "distractors": [
+      "Puyo Puyo",
+      "Dr. Mario",
+      "Bejeweled"
+    ]
+  },
+  {
+    "id": "pacman",
+    "name": "Pac-Man",
+    "difficulty": "kolay",
+    "icons": [
+      "🟡",
+      "🍒",
+      "👻"
+    ],
+    "genre": "Arcade",
+    "hint": "Labirentte noktaları toplarken takipçilerinden kaçarsın.",
+    "fact": "1980’lerin en bilinen labirent arcade oyunlarından biridir.",
+    "distractors": [
+      "Bomberman",
+      "Dig Dug",
+      "Frogger"
+    ]
+  },
+  {
+    "id": "mario",
+    "name": "Super Mario Bros.",
+    "difficulty": "kolay",
+    "icons": [
+      "🍄",
+      "🪙",
+      "🏰"
+    ],
+    "genre": "Platform",
+    "hint": "Yana kayan bölümlerde engelleri aşar, paralar toplarsın.",
+    "fact": "Nintendo’nun 1985 tarihli klasik platform oyunudur.",
+    "distractors": [
+      "Sonic the Hedgehog",
+      "Rayman",
+      "Donkey Kong Country"
+    ]
+  },
+  {
+    "id": "sonic",
+    "name": "Sonic the Hedgehog",
+    "difficulty": "kolay",
+    "icons": [
+      "🦔",
+      "💨",
+      "💍"
+    ],
+    "genre": "Platform",
+    "hint": "Olağanüstü hızla ilerlerken halkalar toplarsın.",
+    "fact": "Sega’nın 1991’de başlayan hızlı platform serisinin ilk oyunudur.",
+    "distractors": [
+      "Crash Bandicoot",
+      "Super Mario Bros.",
+      "Rayman"
+    ]
+  },
+  {
+    "id": "angrybirds",
+    "name": "Angry Birds",
+    "difficulty": "kolay",
+    "icons": [
+      "🐦",
+      "🏹",
+      "🐷"
+    ],
+    "genre": "Bulmaca",
+    "hint": "Bir sapanla karakterleri hedeflere fırlatarak yapıları yıkarsın.",
+    "fact": "Fizik tabanlı sapan bulmacalarıyla tanınan mobil oyundur.",
+    "distractors": [
+      "Cut the Rope",
+      "Plants vs. Zombies",
+      "Bad Piggies"
+    ]
+  },
+  {
+    "id": "sims",
+    "name": "The Sims",
+    "difficulty": "kolay",
+    "icons": [
+      "🏠",
+      "🛋️",
+      "💚"
+    ],
+    "genre": "Simülasyon",
+    "hint": "Sanal kişilerin evlerini, ilişkilerini ve günlük yaşamlarını yönetirsin.",
+    "fact": "Sanal yaşam ve ev kurma simülasyonlarının tanınmış serisidir.",
+    "distractors": [
+      "Animal Crossing: New Horizons",
+      "Stardew Valley",
+      "Two Point Hospital"
+    ]
+  },
+  {
+    "id": "amongus",
+    "name": "Among Us",
+    "difficulty": "kolay",
+    "icons": [
+      "🚀",
+      "🧑‍🚀",
+      "🚨"
+    ],
+    "genre": "Parti / Sosyal çıkarım",
+    "hint": "Bir uzay ekibinde görev yaparken ekipteki sahtekârı bulmaya çalışırsın.",
+    "fact": "Görevler ve toplantılarla ilerleyen sosyal çıkarım oyunudur.",
+    "distractors": [
+      "Goose Goose Duck",
+      "Town of Salem",
+      "Fall Guys"
+    ]
+  },
+  {
+    "id": "fortnite",
+    "name": "Fortnite Battle Royale",
+    "difficulty": "kolay",
+    "icons": [
+      "🪂",
+      "🏝️",
+      "⛈️"
+    ],
+    "genre": "Battle royale",
+    "hint": "Bir adaya inersin; güvenli alan zamanla daralır.",
+    "fact": "Hayatta kalan son oyuncu ya da takım olmayı hedefleyen battle royale modudur.",
+    "distractors": [
+      "PUBG: Battlegrounds",
+      "Apex Legends",
+      "Call of Duty: Warzone"
+    ]
+  },
+  {
+    "id": "gta",
+    "name": "Grand Theft Auto V",
+    "difficulty": "kolay",
+    "icons": [
+      "🌴",
+      "🚗",
+      "🏙️"
+    ],
+    "genre": "Açık dünya",
+    "hint": "Los Santos adlı kurgusal şehirde araç kullanıp suç hikâyeleri oynarsın.",
+    "fact": "2013’te çıkan açık dünya aksiyon-macera oyunudur.",
+    "distractors": [
+      "Watch Dogs 2",
+      "Saints Row IV",
+      "Sleeping Dogs"
+    ]
+  },
+  {
+    "id": "pokemon",
+    "name": "Pokémon Red / Blue",
+    "difficulty": "orta",
+    "icons": [
+      "⚡",
+      "🧢",
+      "🎒"
+    ],
+    "genre": "RPG",
+    "hint": "Yakaladığın yaratıkları eğitir ve takım kurarak karşılaşmalara katılırsın.",
+    "fact": "Pokémon’un ilk nesil rol yapma maceralarını temsil eder.",
+    "distractors": [
+      "Digimon World",
+      "Yo-kai Watch",
+      "Monster Hunter Stories"
+    ]
+  },
+  {
+    "id": "plants",
+    "name": "Plants vs. Zombies",
+    "difficulty": "kolay",
+    "icons": [
+      "🌻",
+      "🪴",
+      "🧟"
+    ],
+    "genre": "Strateji",
+    "hint": "Bahçendeki savunmayı bitkilerle kurup gelen yaratıkları durdurursun.",
+    "fact": "Bitkilerle hat savunması yaptığın eğlenceli kule savunma oyunudur.",
+    "distractors": [
+      "Bloons TD 6",
+      "Kingdom Rush",
+      "Angry Birds"
+    ]
+  },
+  {
+    "id": "terraria",
+    "name": "Terraria",
+    "difficulty": "orta",
+    "icons": [
+      "⛏️",
+      "🕳️",
+      "💎"
+    ],
+    "genre": "Sandbox",
+    "hint": "İki boyutlu bir dünyada yeraltını kazıp eşya üretir ve düşmanlarla savaşırsın.",
+    "fact": "Keşif, üretim ve boss savaşlarını birleştiren 2D sandbox oyunudur.",
+    "distractors": [
+      "Minecraft",
+      "Starbound",
+      "Core Keeper"
+    ]
+  },
+  {
+    "id": "stardew",
+    "name": "Stardew Valley",
+    "difficulty": "orta",
+    "icons": [
+      "🌾",
+      "🐓",
+      "🎣"
+    ],
+    "genre": "Simülasyon",
+    "hint": "Şehir hayatını bırakıp bir çiftliği onarır, ekin yetiştirirsin.",
+    "fact": "2016’da çıkan çiftçilik ve kasaba yaşamı simülasyonudur.",
+    "distractors": [
+      "Story of Seasons",
+      "Harvest Moon",
+      "Animal Crossing: New Horizons"
+    ]
+  },
+  {
+    "id": "portal",
+    "name": "Portal",
+    "difficulty": "orta",
+    "icons": [
+      "🟠",
+      "🧊",
+      "🔵"
+    ],
+    "genre": "Bulmaca",
+    "hint": "İki bağlantılı geçit oluşturarak test odalarındaki fizik bulmacalarını çözersin.",
+    "fact": "2007’de çıkan, geçit açma mekanikli birinci şahıs bulmaca oyunudur.",
+    "distractors": [
+      "The Talos Principle",
+      "The Witness",
+      "Superliminal"
+    ]
+  },
+  {
+    "id": "doom",
+    "name": "DOOM (1993)",
+    "difficulty": "orta",
+    "icons": [
+      "👹",
+      "🔥",
+      "🔫"
+    ],
+    "genre": "FPS",
+    "hint": "Bilimkurgu üssünde cehennem yaratıklarına karşı birinci şahıs çatışmalar yaşarsın.",
+    "fact": "1993 yapımı, FPS türüne damga vurmuş aksiyon klasiğidir.",
+    "distractors": [
+      "Quake",
+      "Wolfenstein 3D",
+      "Duke Nukem 3D"
+    ]
+  },
+  {
+    "id": "skyrim",
+    "name": "The Elder Scrolls V: Skyrim",
+    "difficulty": "orta",
+    "icons": [
+      "🐉",
+      "🏔️",
+      "🗣️"
+    ],
+    "genre": "RPG",
+    "hint": "Ejderha seslenişleriyle tanınan bir kahraman olarak kuzey topraklarını dolaşırsın.",
+    "fact": "2011’de çıkan, devasa fantastik dünyalı rol yapma oyunudur.",
+    "distractors": [
+      "Dragon Age: Inquisition",
+      "The Witcher 3: Wild Hunt",
+      "Elden Ring"
+    ]
+  },
+  {
+    "id": "witcher",
+    "name": "The Witcher 3: Wild Hunt",
+    "difficulty": "orta",
+    "icons": [
+      "🐺",
+      "⚔️",
+      "🧪"
+    ],
+    "genre": "RPG",
+    "hint": "Canavar avcısı Geralt’ın izinden açık dünyada görevler tamamlarsın.",
+    "fact": "Geralt’ın macerasını anlatan 2015 yapımı rol yapma oyunudur.",
+    "distractors": [
+      "Dragon Age: Inquisition",
+      "The Elder Scrolls V: Skyrim",
+      "Kingdom Come: Deliverance"
+    ]
+  },
+  {
+    "id": "aoe",
+    "name": "Age of Empires II",
+    "difficulty": "orta",
+    "icons": [
+      "🏰",
+      "⚒️",
+      "🛡️"
+    ],
+    "genre": "Strateji",
+    "hint": "Orta Çağ medeniyetleriyle köylü, ordu ve kale kurarak savaşırsın.",
+    "fact": "1999 tarihli gerçek zamanlı strateji oyunu, tarihî uygarlıkları konu alır.",
+    "distractors": [
+      "Stronghold Crusader",
+      "Warcraft III",
+      "Rise of Nations"
+    ]
+  },
+  {
+    "id": "nfs",
+    "name": "Need for Speed: Underground 2",
+    "difficulty": "orta",
+    "icons": [
+      "🌃",
+      "🚘",
+      "🏁"
+    ],
+    "genre": "Yarış",
+    "hint": "Gece şehir yollarında modifiye araçlarla sokak yarışlarına katılırsın.",
+    "fact": "2004 yapımı, gece yarışları ve araç özelleştirmesiyle tanınır.",
+    "distractors": [
+      "Midnight Club 3",
+      "Burnout Paradise",
+      "Forza Horizon 5"
+    ]
+  },
+  {
+    "id": "hollow",
+    "name": "Hollow Knight",
+    "difficulty": "zor",
+    "icons": [
+      "🪲",
+      "🗡️",
+      "🕳️"
+    ],
+    "genre": "Metroidvania",
+    "hint": "Böceklerin yaşadığı gizemli bir yeraltı krallığını keşfedersin.",
+    "fact": "2017 yapımı atmosferik keşif ve aksiyon-platform oyunudur.",
+    "distractors": [
+      "Ori and the Blind Forest",
+      "Dead Cells",
+      "Blasphemous"
+    ]
+  },
+  {
+    "id": "celeste",
+    "name": "Celeste",
+    "difficulty": "zor",
+    "icons": [
+      "🏔️",
+      "🧗",
+      "🍓"
+    ],
+    "genre": "Platform",
+    "hint": "Zorlu platform bölümlerini aşarak bir dağın zirvesine çıkarsın.",
+    "fact": "2018 tarihli, hassas kontrol gerektiren bağımsız platform oyunudur.",
+    "distractors": [
+      "Super Meat Boy",
+      "Hollow Knight",
+      "Shovel Knight"
+    ]
+  },
+  {
+    "id": "hades",
+    "name": "Hades",
+    "difficulty": "zor",
+    "icons": [
+      "🏛️",
+      "🔥",
+      "🔱"
+    ],
+    "genre": "Roguelike",
+    "hint": "Yunan mitolojisinin yeraltı dünyasından her denemede biraz daha ilerleyerek kaçarsın.",
+    "fact": "2020’de tam sürümü çıkan, tekrar denemeye dayalı aksiyon oyunudur.",
+    "distractors": [
+      "Dead Cells",
+      "Bastion",
+      "Transistor"
+    ]
+  },
+  {
+    "id": "undertale",
+    "name": "Undertale",
+    "difficulty": "zor",
+    "icons": [
+      "❤️",
+      "🦴",
+      "🗯️"
+    ],
+    "genre": "RPG",
+    "hint": "Yeraltındaki yaratıklarla konuşmak, savaşmaktan daha iyi bir seçenek olabilir.",
+    "fact": "2015 yapımı bağımsız rol yapma oyununda şiddetsiz çözümler önemlidir.",
+    "distractors": [
+      "Deltarune",
+      "EarthBound",
+      "OMORI"
+    ]
+  },
+  {
+    "id": "elden",
+    "name": "Elden Ring",
+    "difficulty": "orta",
+    "icons": [
+      "💍",
+      "🌳",
+      "⚔️"
+    ],
+    "genre": "RPG",
+    "hint": "Altın ağacın gölgesindeki geniş bir fantastik dünyada zorlu düşmanlarla savaşırsın.",
+    "fact": "2022’de çıkan açık dünyalı aksiyon rol yapma oyunudur.",
+    "distractors": [
+      "Dark Souls III",
+      "Lies of P",
+      "The Witcher 3: Wild Hunt"
+    ]
+  },
+  {
+    "id": "zelda",
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "difficulty": "orta",
+    "icons": [
+      "🗡️",
+      "🌬️",
+      "🏞️"
+    ],
+    "genre": "Açık dünya",
+    "hint": "Hyrule’u özgürce keşfeder; tırmanma, süzülme ve fizik etkileşimlerinden yararlanırsın.",
+    "fact": "2017 yapımı açık dünya keşif macerasıdır.",
+    "distractors": [
+      "The Legend of Zelda: Tears of the Kingdom",
+      "Immortals Fenyx Rising",
+      "Okami"
+    ]
+  },
+  {
+    "id": "wow",
+    "name": "World of Warcraft",
+    "difficulty": "orta",
+    "icons": [
+      "🧝",
+      "🐉",
+      "🌐"
+    ],
+    "genre": "MMORPG",
+    "hint": "Azeroth’ta çevrim içi diğer oyuncularla görev ve zindan maceralarına katılırsın.",
+    "fact": "2004’te yayımlanan çok oyunculu çevrim içi rol yapma oyunudur.",
+    "distractors": [
+      "Final Fantasy XIV",
+      "Guild Wars 2",
+      "The Elder Scrolls Online"
+    ]
+  },
+  {
+    "id": "lol",
+    "name": "League of Legends",
+    "difficulty": "orta",
+    "icons": [
+      "🗺️",
+      "🏰",
+      "💠"
+    ],
+    "genre": "MOBA",
+    "hint": "Beşer kişilik takımlar koridorlarda savaşıp karşı tarafın merkezini yıkmaya çalışır.",
+    "fact": "2009’da çıkmış, takım tabanlı çok oyunculu strateji oyunudur.",
+    "distractors": [
+      "Dota 2",
+      "Heroes of the Storm",
+      "Smite"
+    ]
+  },
+  {
+    "id": "cs2",
+    "name": "Counter-Strike 2",
+    "difficulty": "orta",
+    "icons": [
+      "💣",
+      "🎯",
+      "🪖"
+    ],
+    "genre": "FPS",
+    "hint": "Bir takım bomba kurmaya, diğer takım bunu engellemeye çalışır.",
+    "fact": "Valve’ın 2023’te yayımladığı rekabetçi takım tabanlı FPS oyunudur.",
+    "distractors": [
+      "Valorant",
+      "Rainbow Six Siege",
+      "Call of Duty: Modern Warfare"
+    ]
+  },
+  {
+    "id": "re4",
+    "name": "Resident Evil 4",
+    "difficulty": "orta",
+    "icons": [
+      "🏚️",
+      "🧟",
+      "🔦"
+    ],
+    "genre": "Hayatta kalma korku",
+    "hint": "Tuhaf olayların yaşandığı kırsal bir bölgede hayatta kalmaya çalışırsın.",
+    "fact": "2005’te çıkan orijinal oyun, aksiyon ve hayatta kalma korkusunu birleştirir.",
+    "distractors": [
+      "Silent Hill 2",
+      "The Evil Within",
+      "Dead Space"
+    ]
+  },
+  {
+    "id": "flappy",
+    "name": "Flappy Bird",
+    "difficulty": "zor",
+    "icons": [
+      "🐤",
+      "🚧",
+      "🟩"
+    ],
+    "genre": "Arcade",
+    "hint": "Tek dokunuşla uçuş yüksekliğini ayarlayıp dar engellerin arasından geçersin.",
+    "fact": "2013’te yayımlanan, basit kontrolüyle zorlaşan mobil arcade oyunudur.",
+    "distractors": [
+      "Doodle Jump",
+      "Crossy Road",
+      "Jetpack Joyride"
+    ]
+  },
+  {
+    "id": "overcooked",
+    "name": "Overcooked!",
+    "difficulty": "orta",
+    "icons": [
+      "🍳",
+      "👩‍🍳",
+      "⏱️"
+    ],
+    "genre": "Parti / İş birliği",
+    "hint": "Ekipçe hareket ederek karmakarışık mutfaklarda sipariş yetiştirirsin.",
+    "fact": "Zaman baskısı altında iş birliği gerektiren mutfak oyunudur.",
+    "distractors": [
+      "PlateUp!",
+      "Moving Out",
+      "Cook, Serve, Delicious!"
+    ]
+  },
+  {
+    "id": "cuphead",
+    "name": "Cuphead",
+    "difficulty": "zor",
+    "icons": [
+      "☕",
+      "🎺",
+      "🎯"
+    ],
+    "genre": "Aksiyon-platform",
+    "hint": "Eski çizgi film estetiğinde, zorlu bölüm sonu canavarlarıyla kapışırsın.",
+    "fact": "1930’lar çizgi film tarzını anımsatan 2017 yapımı oyunudur.",
+    "distractors": [
+      "Shovel Knight",
+      "Bendy and the Ink Machine",
+      "Hollow Knight"
+    ]
+  },
+  {
+    "id": "civ",
+    "name": "Sid Meier’s Civilization VI",
+    "difficulty": "zor",
+    "icons": [
+      "🌍",
+      "🏛️",
+      "⌛"
+    ],
+    "genre": "Strateji",
+    "hint": "Taş Devri’nden ilerleyerek bilim, kültür ve diplomasiyle medeniyet kurarsın.",
+    "fact": "2016 tarihli tur bazlı medeniyet kurma strateji oyunudur.",
+    "distractors": [
+      "Humankind",
+      "Old World",
+      "Age of Empires II"
+    ]
+  },
+  {
+    "id": "animalcross",
+    "name": "Animal Crossing: New Horizons",
+    "difficulty": "orta",
+    "icons": [
+      "🏝️",
+      "🏡",
+      "🐻"
+    ],
+    "genre": "Simülasyon",
+    "hint": "Bir adaya taşınıp evini, çevreni ve komşularınla ilişkilerini geliştirirsin.",
+    "fact": "2020’de çıkan huzurlu ada yaşamı simülasyonudur.",
+    "distractors": [
+      "Stardew Valley",
+      "Cozy Grove",
+      "Disney Dreamlight Valley"
+    ]
+  },
+  {
+    "id": "fallguys",
+    "name": "Fall Guys",
+    "difficulty": "kolay",
+    "icons": [
+      "🏃",
+      "🎊",
+      "🏁"
+    ],
+    "genre": "Parti / Platform",
+    "hint": "Kalabalık yarışmacılarla eğlenceli engelli parkurlarda sona kalmaya çalışırsın.",
+    "fact": "Renkli ve kaotik eleme parkurlarıyla bilinen çok oyunculu oyundur.",
+    "distractors": [
+      "Stumble Guys",
+      "Party Animals",
+      "Human: Fall Flat"
+    ]
+  },
+  {
+    "id": "rocket",
+    "name": "Rocket League",
+    "difficulty": "kolay",
+    "icons": [
+      "🚗",
+      "⚽",
+      "🚀"
+    ],
+    "genre": "Spor",
+    "hint": "Roket itişli arabalarla büyük bir topu kaleye göndermeye çalışırsın.",
+    "fact": "Araç sürme ile futbolu birleştiren rekabetçi oyundur.",
+    "distractors": [
+      "EA Sports FC 25",
+      "Trackmania",
+      "Turbo Golf Racing"
+    ]
+  }
+]
